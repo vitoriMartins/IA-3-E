@@ -23,5 +23,14 @@ let perguntaAtual;
 function mostraPergunta(){
     perguntaAtual = perguntas[posicao];
     caixaPergunta.textContent = perguntaAtual.enunciado;
-    
+    mostraAlternativas();
 }
+
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativa){
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa;
+        caixaAlternativa.appendChild(botaoAlternativas);
+    }
+}
+mostraPergunta();
