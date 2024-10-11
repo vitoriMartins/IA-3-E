@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo: #01080e;
-    --cor-principal: #0b0d20;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2bdefd;
-    --cor-texto: #d7f9ff;
+    --cor-fundo: #b1b2e3;
+    --cor-principal: #c4c6ea;
+    --cor-secundaria: #d8d9f1;
+    --cor-destaque: #ebecf8;
+    --cor-texto: #ffffff;
     --fonte-principal: "Chakra Petch", sans-serif;
 }
 body{

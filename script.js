@@ -2,41 +2,42 @@ const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
-        enunciado: "Você gosta da Inteligência Artificial?",
+        enunciado: "Você prefere doce ou salgado?",
         alternativas: [{
-            texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Doce",
+            afirmação: "Seu gosto é adocicado."
         },
         {
-            texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            texto: "Salgado",
+            afirmação: "Seu gosto é salgado."
         }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você gosta de fazer esportes?",
         alternativas: [{
-            texto: "Quem sabe...",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Sim",
+            afirmação: "Você é uma pessoa atletica e ativa."
         },
         {
-            texto:"Talvez",
-            afirmação:"Afirmação da alternativa 2"
+            texto:"Não",
+            afirmação:"Talvez sua vida é mais calma e tranquila."
         }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você prefere filmes de ação? ou romanticos?",
         alternativas: [{
-            texto: "Sim",
-            afirmação: "Afirmação da alternativa 1"
+            texto: "Ação",
+            afirmação: "Sua personalidade é fimes da Marvel e DC."
         },
         {
-            texto: "Não",
-            afirmação: "Afirmação da alternativa"
+            texto: "Romance",
+            afirmação: "Sua personalidade é calma, e talvez você goste mais de ler do que algum filme."
         }
         ]
     }
